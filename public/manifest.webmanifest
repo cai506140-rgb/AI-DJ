@@ -1,0 +1,17 @@
+{
+  "name": "AI DJ 本地电台",
+  "short_name": "AI DJ",
+  "description": "A local 24-hour AI DJ prototype.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050505",
+  "theme_color": "#050505",
+  "icons": [
+    {
+      "src": "/pwa-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

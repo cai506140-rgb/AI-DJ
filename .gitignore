@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env
+*.local
+
+dev-server.*.log
+qa-desktop.png
+
+.DS_Store
+Thumbs.db
