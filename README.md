@@ -24,6 +24,28 @@ Open:
 - Frontend: http://127.0.0.1:5173
 - API state: http://127.0.0.1:8787/api/state
 
+## Desktop App
+
+Run the Electron desktop shell:
+
+```bash
+npm run desktop
+```
+
+This starts the local API server, the Vite frontend, and then opens Local AI DJ in a native desktop window.
+
+If the services are already running, you can open only the Electron shell:
+
+```bash
+npx electron electron/main.cjs
+```
+
+Create a Windows portable build:
+
+```bash
+npm run desktop:dist
+```
+
 ## Environment
 
 Copy `.env.example` to `.env` and fill only the services you want to enable.
@@ -48,6 +70,7 @@ Without API keys, the app still runs with mock weather and text-only voice mode.
 npm run dev
 npm run build
 npm run preview
+npm run desktop
 ```
 
 ## Notes
